@@ -1,0 +1,7 @@
+<div>
+<h1>The Last Sunbeam is a collection of sunsets</h1>
+<% @artworks.each do |artwork|%>
+  <%= artwork.title %>
+  <%= cl_image_tag artwork.photo.key, height: 300, width: 400, crop: :fill %>
+<% end %>
+</div>

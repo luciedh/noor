@@ -1,0 +1,9 @@
+.site-container {
+  background-color: $sand;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 4px;
+  align-items: center;
+  justify-content: center;
+}
