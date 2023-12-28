@@ -1,15 +1,17 @@
-<h1>NOOR</h1>
-<div>
-  <%= link_to the_last_sunbeam_path, class: "d-flex flex-column align-items-center justify-content-between" do %>
-    <p>The Last Sunbeam</p>
-  <% end %>
-  <%= link_to instantanes_path, class: "d-flex flex-column align-items-center justify-content-between" do %>
-    <p>Instantanés</p>
-  <% end %>
-  <%= link_to linogravures_path, class: "d-flex flex-column align-items-center justify-content-between" do %>
-    <p>Linogravures</p>
-  <% end %>
-  <%= link_to poemes_path, class: "d-flex flex-column align-items-center justify-content-between" do %>
-    <p>Poèmes</p>
-  <% end %>
+<div class="navbar-container">
+  <%= image_tag 'logo.png', class: "logo" %>
+  <div class="navbar">
+    <%= link_to the_last_sunbeam_path, class: "d-flex flex-column align-items-center justify-content-between" do %>
+      <p>THE LAST SUNBEAM</p>
+    <% end %>
+    <%= link_to instantanes_path, class: "d-flex flex-column align-items-center justify-content-between" do %>
+      <p>INSTANTANES</p>
+    <% end %>
+    <%= link_to linogravures_path, class: "d-flex flex-column align-items-center justify-content-between" do %>
+      <p>LINOGRAVURES</p>
+    <% end %>
+    <%= link_to poemes_path, class: "d-flex flex-column align-items-center justify-content-between" do %>
+      <p>POEMES</p>
+    <% end %>
+  </div>
 </div>

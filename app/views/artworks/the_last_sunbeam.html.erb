@@ -1,7 +1,19 @@
-<div>
-<h1>The Last Sunbeam is a collection of sunsets</h1>
-<% @artworks.each do |artwork|%>
-  <%= artwork.title %>
-  <%= cl_image_tag artwork.photo.key, height: 300, width: 400, crop: :fill %>
-<% end %>
+<div class="site-container">
+  <div class="artwork-container">
+    <p>The Last Sunbeam is a collection of sunsets</p>
+    <div class="artwork-cards">
+      <% @artworks.each do |artwork|%>
+        <div class="artwork-card">
+          <div>
+            <%= cl_image_tag artwork.photo.key %>
+          </div>
+          <div class="description">
+            <h2><%= artwork.title %></h2>
+            <p><%= artwork.dimension %></p>
+            <p><%= artwork.technique %></p>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
 </div>
