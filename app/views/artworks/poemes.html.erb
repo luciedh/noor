@@ -1,1 +1,21 @@
-<h1>Poèmes</h1>
+<div class="site-container">
+  <div class="artwork-container">
+    <div class="collection-description">
+      <p>Poèmes are driven by emotions</p>
+    </div>
+    <div class="artwork-cards">
+      <% @artworks.each do |artwork|%>
+        <div class="artwork-card">
+          <div>
+            <%= cl_image_tag artwork.photo.key %>
+          </div>
+          <div class="description">
+            <h2><%= artwork.title %></h2>
+            <p><%= artwork.dimension %></p>
+            <p><%= artwork.technique %></p>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

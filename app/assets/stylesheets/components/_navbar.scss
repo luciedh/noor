@@ -1,5 +1,5 @@
 .navbar-container {
-  padding: 15px;
+  padding: 30px;
   align-items: center;
   background-color: $sand;
   position: sticky;
@@ -30,6 +30,7 @@
     color: $sand;
     text-decoration: none;
     font-weight: lighter;
+    letter-spacing: 4px;
     p {
       margin-bottom: 5px;
       margin-top: 5px;

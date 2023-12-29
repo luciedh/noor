@@ -23,9 +23,18 @@
   border-color: $klein;
   h2 {
     font-size: small;
+    letter-spacing: 4px;
   }
   p {
     font-size: x-small;
     font-style: italic;
+    margin-bottom: 0px;
   }
+}
+
+.collection-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 4px;
 }
