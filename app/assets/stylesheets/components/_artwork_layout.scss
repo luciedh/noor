@@ -4,13 +4,14 @@
   margin: 3%;
 }
 
-.artwork-cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  img {
-    width: 90%;
+  .artwork-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    img {
+      width: 90%;
+    }
   }
-}
+
 
 .artwork-card {
   padding: 8px;
