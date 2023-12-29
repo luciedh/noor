@@ -73,49 +73,49 @@ artwork_13.save
 
 #   linogravure
 file_14 = URI.open("https://res.cloudinary.com/dni212b6h/image/upload/v1703840558/linogravure1_agsr8x.jpg")
-artwork_14 = Artwork.new(title: "Des Cigales et du Pastis", dimension: "24x32cm", technique: "Linogravure", price: 20.0, sold: false, collection_id:3)
+artwork_14 = Artwork.new(title: "Des Cigales et du Pastis", dimension: "24x32cm", technique: "Linogravure", price: 20.0, sold: false, collection_id:2)
 artwork_14.photo.attach(io: file_14, filename: "pastis.png", content_type: "image/png")
 artwork_14.save
 file_15 = URI.open("https://res.cloudinary.com/dni212b6h/image/upload/v1703840558/linogravure5_dweizm.jpg")
-artwork_15 = Artwork.new(title: "Midnight Market", dimension: "24x32cm", technique: "Linogravure", price: 20.0, sold: false, collection_id:3)
+artwork_15 = Artwork.new(title: "Midnight Market", dimension: "24x32cm", technique: "Linogravure", price: 20.0, sold: false, collection_id:2)
 artwork_15.photo.attach(io: file_15, filename: "midnightmarket.png", content_type: "image/png")
 artwork_15.save
 file_16 = URI.open("https://res.cloudinary.com/dni212b6h/image/upload/v1703840557/linogravure4_runxcu.jpg")
-artwork_16 = Artwork.new(title: "Aye Aye Captain", dimension: "24x32cm", technique: "Linogravure", price: 20.0, sold: false, collection_id:3)
+artwork_16 = Artwork.new(title: "Aye Aye Captain", dimension: "24x32cm", technique: "Linogravure", price: 20.0, sold: false, collection_id:2)
 artwork_16.photo.attach(io: file_16, filename: "captain.png", content_type: "image/png")
 artwork_16.save
 file_17 = URI.open("https://res.cloudinary.com/dni212b6h/image/upload/v1703840556/linogravure2_pgzu1t.jpg")
-artwork_17 = Artwork.new(title: "Balle de Match", dimension: "24x32cm", technique: "Linogravure", price: 20.0, sold: false, collection_id:3)
+artwork_17 = Artwork.new(title: "Balle de Match", dimension: "24x32cm", technique: "Linogravure", price: 20.0, sold: false, collection_id:2)
 artwork_17.photo.attach(io: file_17, filename: "balledematch.png", content_type: "image/png")
 artwork_17.save
 file_18 = URI.open("https://res.cloudinary.com/dni212b6h/image/upload/v1703840556/linogravure6_bvvbiu.jpg")
-artwork_18 = Artwork.new(title: "Midnight Wanders", dimension: "24x32cm", technique: "Linogravure", price: 20.0, sold: false, collection_id:3)
+artwork_18 = Artwork.new(title: "Midnight Wanders", dimension: "24x32cm", technique: "Linogravure", price: 20.0, sold: false, collection_id:2)
 artwork_18.photo.attach(io: file_18, filename: "midnightwanders.png", content_type: "image/png")
 artwork_18.save
 file_19 = URI.open("https://res.cloudinary.com/dni212b6h/image/upload/v1703840556/linogravure3_emqgpt.jpg")
-artwork_19 = Artwork.new(title: "Indian Blue Blues", dimension: "24x32cm", technique: "Linogravure", price: 20.0, sold: false, collection_id:3)
+artwork_19 = Artwork.new(title: "Indian Blue Blues", dimension: "24x32cm", technique: "Linogravure", price: 20.0, sold: false, collection_id:2)
 artwork_19.photo.attach(io: file_19, filename: "indianceblueblues.png", content_type: "image/png")
 artwork_19.save
 
 #   poemes
 file_20 = URI.open("https://res.cloudinary.com/dni212b6h/image/upload/v1703840560/poeme9_ycgtcc.jpg")
-artwork_20 = Artwork.new(title: "Lovée", dimension: "24x32cm", technique: "Acrylic on paper", price: 20.0, sold: false, collection_id:3)
+artwork_20 = Artwork.new(title: "Lovée", dimension: "24x32cm", technique: "Acrylic on paper", price: 20.0, sold: false, collection_id:4)
 artwork_20.photo.attach(io: file_20, filename: "lovee.png", content_type: "image/png")
 artwork_20.save
 file_21 = URI.open("https://res.cloudinary.com/dni212b6h/image/upload/v1703840557/poeme10_qul1ww.jpg")
-artwork_21 = Artwork.new(title: "Guerrière", dimension: "24x32cm", technique: "Acrylic on paper", price: 20.0, sold: false, collection_id:3)
+artwork_21 = Artwork.new(title: "Guerrière", dimension: "24x32cm", technique: "Acrylic on paper", price: 20.0, sold: false, collection_id:4)
 artwork_21.photo.attach(io: file_21, filename: "guerriere.png", content_type: "image/png")
 artwork_21.save
 file_22 = URI.open("https://res.cloudinary.com/dni212b6h/image/upload/v1703840556/poeme1_oaz2mg.jpg")
-artwork_22 = Artwork.new(title: "Chaos", dimension: "24x32cm", technique: "Acrylic on paper", price: 20.0, sold: false, collection_id:3)
+artwork_22 = Artwork.new(title: "Chaos", dimension: "24x32cm", technique: "Acrylic on paper", price: 20.0, sold: false, collection_id:4)
 artwork_22.photo.attach(io: file_22, filename: "chaos.png", content_type: "image/png")
 artwork_22.save
 file_23 = URI.open("https://res.cloudinary.com/dni212b6h/image/upload/v1703840557/poeme6_axha1n.jpg")
-artwork_23 = Artwork.new(title: "Amour", dimension: "24x32cm", technique: "Acrylic on paper", price: 20.0, sold: false, collection_id:3)
+artwork_23 = Artwork.new(title: "Amour", dimension: "24x32cm", technique: "Acrylic on paper", price: 20.0, sold: false, collection_id:4)
 artwork_23.photo.attach(io: file_23, filename: "amour.png", content_type: "image/png")
 artwork_23.save
 file_24 = URI.open("https://res.cloudinary.com/dni212b6h/image/upload/v1703840559/poeme5_jmyeyd.jpg")
-artwork_24 = Artwork.new(title: "Lovée 2", dimension: "24x32cm", technique: "Acrylic on paper", price: 20.0, sold: false, collection_id:3)
+artwork_24 = Artwork.new(title: "Lovée 2", dimension: "24x32cm", technique: "Acrylic on paper", price: 20.0, sold: false, collection_id:4)
 artwork_24.photo.attach(io: file_24, filename: "lovee2.png", content_type: "image/png")
 artwork_24.save
 puts "Artwork created"
